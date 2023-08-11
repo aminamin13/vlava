@@ -2,7 +2,7 @@
 
 var _ServicesContainer = document.getElementById('ServicesContainer')
 
-fetch('http://localhost:3000/services')
+fetch('https://vlavaapi.onrender.com/services')
     .then(response => response.json())
     .then(json => {
 
